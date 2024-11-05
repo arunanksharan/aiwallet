@@ -25,5 +25,5 @@ export const TOKEN_ADDRESSES: Record<string, { [key: string]: string | number }>
     },
     // Add more tokens as needed
 } as const;
-console.log('CHAIN_IDS:', CHAIN_IDS);
-console.log('TOKEN_ADDRESSES:', TOKEN_ADDRESSES);
+// console.log('CHAIN_IDS:', CHAIN_IDS);
+// console.log('TOKEN_ADDRESSES:', TOKEN_ADDRESSES);

@@ -1,7 +1,6 @@
 import { Alchemy } from 'alchemy-sdk';
-import { ChainName, QuoteResponse, TokenName } from '../types/tools';
+import { ChainName} from '../types/tools';
 import { CHAIN_IDS, TOKEN_ADDRESSES } from '../constants';
-import { error } from 'console';
 
 const ALCHEMY_API_KEY = process.env.ALCHEMY_API_KEY as string;
 
@@ -65,8 +64,8 @@ export async function fetchSwapQuotes(
   // const quotes: QuoteResponse[] = [];
 
   // Configuration
-  const LIFI_API_URL = 'https://li.fi/v1';
-  const SOCKET_API_URL = 'https://api.socket.tech/v2';
+  // const LIFI_API_URL = 'https://li.fi/v1';
+  // const SOCKET_API_URL = 'https://api.socket.tech/v2';
   const SOCKET_API_KEY = process.env.SOCKET_API_KEY!;
 
   console.log(
